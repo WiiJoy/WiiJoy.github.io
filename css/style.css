@@ -170,7 +170,7 @@ h2 {
 .advant .advant_wrapper {
     margin-top: 35px;
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -186,7 +186,6 @@ h2 {
 
 .advant .advant_item {
     width: 350px;
-    margin-left: 26px;
     line-height: 21px;
 }
 
