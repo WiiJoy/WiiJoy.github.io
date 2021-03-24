@@ -278,18 +278,18 @@ h2
         &_nmb
             margin-bottom: 0px
     &_title
-        font-size: 22px;
-        font-weight: 400;
-        color: #1ca8c3;
+        font-size: 22px
+        font-weight: 400
+        color: #1ca8c3
     &_list
         list-style-type: none
         padding-left: 50px
         margin-top: 22px
         li
             position: relative
-            font-size: 17px;
-            font-weight: 300;
-            color: #222222;
+            font-size: 17px
+            font-weight: 300
+            color: #222222
             margin-bottom: 10px
             &::before
                 content: ''
@@ -301,10 +301,10 @@ h2
                 height: 20px
                 background: url('../icons/marker_blue.png') center (center / cover) no-repeat
     &_descr
-        font-size: 17px;
-        font-weight: 300;
-        color: #1ca8c3;
-        line-height: 24px;
+        font-size: 17px
+        font-weight: 300
+        color: #1ca8c3
+        line-height: 24px
     .warning
         .require_title
             color: $reduber
@@ -320,21 +320,17 @@ h2
     background: url('../img/bg_world.jpg') center (center / cover) no-repeat
     &_link
         display: block
-        font-size: 15px;
-        font-weight: 400;
-        text-transform: uppercase;
+        font-size: 15px
+        font-weight: 400
+        text-transform: uppercase
         text-align: center
-        color: #1fbad6;
+        color: #1fbad6
         margin-top: 486px
 
 footer
     position: relative
-    height: 156px
-    padding: 14px 0 39px 0
-    ul
-        display: flex
-        justify-content: space-evenly
-        list-style-type: none
+    min-height: 156px
+    padding: 14px 18px 39px 14px
     .lang
         margin-top: 19px
         display: block
@@ -350,25 +346,56 @@ footer
             height: 4px
             background-color: #1fbad6
             margin: 0 auto
-        &_main
-            margin-top: 32px
-            padding: 0
-            margin-bottom: 0
-            line-height: 15px
-            &_item_link
+        &_wrapper
+            display: flex
+            justify-content: space-between
+        &_social
+            margin-top: 33px
+            display: flex
+            position: absolute
+            &_link
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 32px
+                height: 32px
+                background-color: #070716
+                border-radius: 100%
+                margin-left: 9px
+                i
+                    color: #fff
+        &_links
+            width: 380px
+            position: relative
+            &_main
+                display: flex
+                justify-content: space-around
+                margin-top: 34px
                 font-size: 15px
                 font-weight: 300
                 text-transform: uppercase
-                color: #070716
-        &_sub
-            margin-top: 16px
-            padding: 0
-            margin-bottom: 0
-            line-height: 11px
-            &_item_link
+                text-align: center
+                line-height: 15px
+                a
+                    color: #070716
+            &_sub
+                display: flex
+                justify-content: space-between
+                margin-top: 16px
                 font-size: 11px
                 font-weight: 300
                 text-transform: uppercase
-                color: #999999
+                line-height: 11px
+                a
+                    color: #999999
+        &_download
+            margin-top: 34px
+            position: absolute
+            display: flex
+            right: 0px
+            &_link
+                width: 94px
+                height: 27px
+                margin-right: 5px
         
     
